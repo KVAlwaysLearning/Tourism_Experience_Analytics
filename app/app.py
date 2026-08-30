@@ -323,26 +323,26 @@ def main():
         with col_a:
             fig1_path = FIGURES_DIR / "1_user_demographics.png"
             if fig1_path.exists():
-                st.image(str(fig1_path), caption="Figure 1: User Distribution by Continent and Top Origin Countries", use_column_width=True)
+                st.image(str(fig1_path), caption="Figure 1: User Distribution by Continent and Top Origin Countries", use_container_width=True)
             else:
                 st.info("Figure 1 (Demographics): Asian and European travelers comprise over 68% of global tourist transactions.")
 
             fig3_path = FIGURES_DIR / "3_rating_distributions.png"
             if fig3_path.exists():
-                st.image(str(fig3_path), caption="Figure 3: Global Rating Distribution and Visit Mode Segmentation", use_column_width=True)
+                st.image(str(fig3_path), caption="Figure 3: Global Rating Distribution and Visit Mode Segmentation", use_container_width=True)
             else:
                 st.info("Figure 3 (Ratings): Overall satisfaction is positively skewed with an average of 4.35/5.0 stars.")
 
         with col_b:
             fig2_path = FIGURES_DIR / "2_top_attractions.png"
             if fig2_path.exists():
-                st.image(str(fig2_path), caption="Figure 2: Top 15 Visited & Highest-Rated Attractions", use_column_width=True)
+                st.image(str(fig2_path), caption="Figure 2: Top 15 Visited & Highest-Rated Attractions", use_container_width=True)
             else:
                 st.info("Figure 2 (Attractions): Iconic cultural landmarks dominate both footfall volume and customer review satisfaction.")
 
             fig4_path = FIGURES_DIR / "4_correlation_heatmap.png"
             if fig4_path.exists():
-                st.image(str(fig4_path), caption="Figure 4: Correlation Matrix of User & Attraction Features", use_column_width=True)
+                st.image(str(fig4_path), caption="Figure 4: Correlation Matrix of User & Attraction Features", use_container_width=True)
             else:
                 st.info("Figure 4 (Correlations): Historical user ratings strongly correlate with future transaction evaluations.")
 
