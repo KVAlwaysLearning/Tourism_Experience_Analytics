@@ -1,0 +1,16 @@
+{
+  "features": [
+    "VisitYear",
+    "VisitMonth",
+    "Continent_encoded",
+    "Country_encoded",
+    "AttractionType_encoded",
+    "VisitMode_label_encoded",
+    "user_mean_rating",
+    "user_visit_count",
+    "attraction_mean_rating",
+    "attraction_visit_count"
+  ],
+  "target": "Rating",
+  "best_model": "LightGBM Regressor"
+}

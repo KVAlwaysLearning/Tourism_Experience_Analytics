@@ -1,0 +1,26 @@
+{
+  "Logistic Regression": {
+    "Accuracy": 0.238994898923106,
+    "Precision (Macro)": 0.249514140800232,
+    "Recall (Macro)": 0.30251532070568715,
+    "F1-Score (Macro)": 0.19655147294654612
+  },
+  "Random Forest": {
+    "Accuracy": 0.45956924239561686,
+    "Precision (Macro)": 0.3575534815198069,
+    "Recall (Macro)": 0.4047262780693388,
+    "F1-Score (Macro)": 0.3584692876119434
+  },
+  "Gradient Boosting": {
+    "Accuracy": 0.4938598148498016,
+    "Precision (Macro)": 0.5678819645252976,
+    "Recall (Macro)": 0.30805468223165783,
+    "F1-Score (Macro)": 0.313662304296333
+  },
+  "LightGBM Classifier": {
+    "Accuracy": 0.3941054222558096,
+    "Precision (Macro)": 0.3292429666869625,
+    "Recall (Macro)": 0.40511514551169475,
+    "F1-Score (Macro)": 0.3174899802355597
+  }
+}

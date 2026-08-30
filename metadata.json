@@ -1,0 +1,6 @@
+{
+  "name": "Tourism Experience Analytics",
+  "description": "Classification, Prediction, and Recommendation System for Tourism Experience Analytics with ML pipeline and interactive analytics dashboard",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

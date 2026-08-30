@@ -1,0 +1,22 @@
+{
+  "features": [
+    "VisitYear",
+    "VisitMonth",
+    "Continent_encoded",
+    "Country_encoded",
+    "AttractionType_encoded",
+    "user_mean_rating",
+    "user_visit_count",
+    "attraction_mean_rating",
+    "attraction_visit_count"
+  ],
+  "target": "VisitMode_label",
+  "classes": [
+    "Business",
+    "Couples",
+    "Family",
+    "Friends",
+    "Solo"
+  ],
+  "best_model": "Random Forest"
+}
