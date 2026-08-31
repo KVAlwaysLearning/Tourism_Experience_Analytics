@@ -14,6 +14,14 @@ An end-to-end Machine Learning and Analytics platform delivering rating predicti
 
 ---
 
+## 🌟 Deployed & Live Application
+
+Access the live, interactive Streamlit analytics dashboard here:
+
+👉 **[Tourism Experience Analytics App](https://tourismexperienceanalytics-app0.streamlit.app/)**
+
+---
+
 ## 📁 Repository Structure
 
 ```
